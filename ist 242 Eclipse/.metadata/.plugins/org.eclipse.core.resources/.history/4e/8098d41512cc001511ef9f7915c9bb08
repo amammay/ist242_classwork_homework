@@ -1,0 +1,95 @@
+/**
+ * 
+ */
+
+/**
+ * @author amm7100
+ *
+ */
+import java.util.Scanner;
+public class Lab1_phones {
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+	
+		
+		
+		int minutesUsed = 0;
+		int messagesUsed;
+		int megabytesUsed;
+		String planName;
+		double phoneCost ;
+		double monthlyFee;
+		int freeMinutes;
+		int messages;
+		int megabytes;
+		double feeMinutes;
+		double feeMessages;
+		double feeMegabytes;
+		
+		
+	
+		Scanner reader = new Scanner(System.in);  // Reading from System.in
+		
+		
+		
+		System.out.println("Usage ");
+		System.out.println("Please enter your minutes used: ");
+		minutesUsed = reader.nextInt();
+		System.out.println("Please enter your messages sent: ");
+		messagesUsed = reader.nextInt();
+		System.out.println("Please enter data in megabytes used: ");
+		megabytesUsed = reader.nextInt();
+	
+
+		System.out.println("Please enter Plan Name: \n");
+		planName = reader.next();
+		System.out.println("Please enter the cost of your Phone: \n");
+		System.out.println("Please enter Monthly fee: \n");
+		monthlyFee = reader.nextDouble();
+		System.out.println("Please enter amount of Free Minutes: \n");
+		freeMinutes = reader.nextInt();
+		System.out.println("Please enter amount of Messages you can send/recieve: \n");
+		messages = reader.nextInt();
+		System.out.println("Please enter amount of data in megabytes you can use: \n");
+		megabytes = reader.nextInt();
+		System.out.println("Please enter fee for going over Minutes allowed: \n");
+		feeMinutes = reader.nextDouble();
+		System.out.println("Please enter fee for going over Messages sent/recieved: \n");
+		feeMessages = reader.nextDouble();
+		System.out.println("Please enter fee for going over Data usage: \n");
+		feeMegabytes = reader.nextDouble();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		reader.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
+
+
